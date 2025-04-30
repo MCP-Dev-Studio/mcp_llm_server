@@ -1,0 +1,17 @@
+name: mcp_llm_server
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.7.2
+
+# Add regular dependencies here.
+dependencies:
+  mcp_llm: ^0.2.2
+  mcp_server: ^0.1.8
+  dotenv: ^4.2.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
